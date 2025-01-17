@@ -1,0 +1,5 @@
+pwd : print current working directory
+ls : print list of directories
+mkdir <-folderName-> : make directory to create directory
+code <-fileName-> : to create file (only used in VS code terminal)
+rm <-fileOrFolderName-> : to remove file or folder
