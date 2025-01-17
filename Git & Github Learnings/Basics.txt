@@ -71,8 +71,7 @@ HOW TO ADD LOCAL REPO TO GITHUB :
     Create a repo in github and copy the url
     Use command : git remote add origin <-Repo url->
     Use command : git remote -v (To verify local is linked with remote or not)
-    Use push command : git push origin master
+    Note : First rename ypur master branch to main using below command
+        git branch -M main
+    Use push command : git push origin main
     Use diff command to check differences : git diff <-branch name-> (Note this will show differences in pager press q to exit)
-
-
-
