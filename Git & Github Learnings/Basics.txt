@@ -1,0 +1,71 @@
+GITHUB : It is a hosting service for git repositories, allow to access and download  project from any computer.
+GIT : Git is a distributed version control system that allows developers to track change in their codebase, collaborate with others and manage different version of their projects efficiently.
+
+
+
+USES OF GIT : 
+    Version control : Git helps intracking changes, allowing to revert to previous version if something goes wrong.
+    Collaboration : Git enable multiple developers to work on a project simultaneously without interfaring each other's work.
+    Backup : Entire project history is store in a git repository, provides backup of all versions.
+    Branching and merging : Git's branching model allows to experiment on different features and bugs fixes independently from the main project.
+    Open source project : Most open source projects use git for version control.
+    Industry Standards : It is widely used in software Industry, make it essential skill for developers.
+
+
+
+WORKING WITH GIT :
+    Intitalize repo --------> Stage changes -----------> Commit changes
+
+
+
+CORE CONCEPT OF GIT : 
+    Repositories : It is a storage space where project files and history are kept. There are two types of repo (local -> It local system and remote -> version of project hosted pn server like github, gitlab etc) 
+    commit : Snapshot of project at a specific point in time.
+    Branches : A branch is a seperate line of development. Default branch is main or master or develop branch.
+    Merging : Process of integrating on branch with other once task or freature is completed.
+    Cloning : Creating a local copy of a remote repo.
+    Push : Send local change to remote repo, making them available for others.
+    pull : Fetching updates from remote repo and integrate them into local repo.
+
+
+
+GIT SETUP COMMMANDS :
+    git config --global user.name "your user name"
+    git config --global user.email "your email"
+    git config --list
+
+
+
+BASIC COMMANDS OF GIT :
+    git init : it start or Intitalize the git in project. 
+    git clone https://github.com/username/repo.git : Create a copy of an existing repo.
+    git status : Check status of the repo.
+    git add <-file name-> : To stage changes for next commit
+    git add . : To stage all chages for next commit 
+    git commit -m "You massage" : To record or take a Snapshot of changes with a massage
+    git branch <-branch name-> : To create a new branch
+    git checkout <-branch name-> : To switch to another branch
+    git pull origin main : Fetch and integrate changes from a remote repo
+    git merge <-branch name-> : TO merge or integrate changes to another branch
+    git push origin <-branch name-> : To push chnages to remote repo
+
+
+
+HOW TO START WITH GIT :
+    Download git at your local system.
+    Create a project folder and open folder with git bash or in terminal
+
+    Use Intitalize command : git init (This command will initialize git in your folder and create a hidden .git folder in it)
+
+    Add some file, folder or any thing you want 
+    Use status command to check status of your repo : git status (THis command will show status of your files and folders)
+    Use restore command to discard changes in working directory : git restore <-filename->
+
+    Use add command to add file in it : git add . (This command with stage the changes for commit)
+    Use reset command to unstage the files and folder : git reset HEAD <-file name->
+
+    Use commit command to commit your changes : git commit -m "intital commit msg"
+    Use reset command to unstage the files you have commited : git reset --soft HEAD~1
+
+
+
