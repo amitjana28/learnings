@@ -1,3 +1,0 @@
-Head in git is rferance to the current checkout commit in your repo. It's basically a pointer to the latest commit in your branch.
-
-git show HEAD : This will show Head of the branch and changes made in it.
