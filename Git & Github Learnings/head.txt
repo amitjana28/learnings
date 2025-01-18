@@ -1,0 +1,1 @@
+Head in git is rferance to the current checkout commit in your repo. It's basically a pointer to the latest commit in your branch.
