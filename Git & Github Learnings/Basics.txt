@@ -43,11 +43,14 @@ BASIC COMMANDS OF GIT :
     git add <-file name-> : To stage changes for next commit
     git add . : To stage all chages for next commit 
     git commit -m "You massage" : To record or take a Snapshot of changes with a massage
+    git branch : To print list of branch
     git branch <-branch name-> : To create a new branch
+    git branch -d <-branch name-> : To delete branch
     git checkout <-branch name-> : To switch to another branch
     git pull origin main : Fetch and integrate changes from a remote repo
     git merge <-branch name-> : TO merge or integrate changes to another branch
     git push origin <-branch name-> : To push chnages to remote repo
+    git log : To print log of your current working branch
 
 
 
