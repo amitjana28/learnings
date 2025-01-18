@@ -1,0 +1,35 @@
+Head in git is rferance to the current checkout commit in your repo. It's basically a pointer to the latest commit in your branch.
+
+GIT HEAD :
+    git show HEAD : This will show Head of the branch and changes made in it.
+    git log : This will print log of your repo.
+
+GIT DETACHED HEAD :
+    git checkout <-commitID-> : This will move the head to the mentioned commit ID.
+    git checkout <-commitId-> <-fileName-> : This will only change the mentioned file content as commit id mentioned.
+
+GIT INDEX : It is basically a staging area in git where we can gather changes which we want to commit the changes.
+    git status : To check the status of the current working branch
+    'git add -A' or 'git add .' or 'git add <-fileName->' : To add all the untracked or modified file to stage area
+    git restore --staged <-fileName-> : To unstage the file from the stage area
+    git commit -m "Your msg" : To commit the changes with a massage
+    git push origin <-branchName-> : To push the changes to the particular branch.
+
+GIT FORK USING COMMAND LINE :
+    First you have to install or setup gh in your system. To check gh is installed or not use 'gh --version'
+    If version is visible it is installed else use 'winget install --id GitHub.cli' and then check 'gh --version'
+    You have to login using 'gh auth login --web > SSH'
+    Now you can use command 'gh repo fork <-RepoURL-> --clone
+
+GIT STASH : Stash is use to preserve the changes without commiting them
+    git stash : this will stash the changes that have been added to staged changes and unstage changes.
+    git stash -u : This is use to stash the changes that is untracked
+    git stash list : This is use to list down all the stash
+    git stash save "Your message" : This will stash the changes
+    git stash pop : This will remove the changes from the stash and reapplied the changes in the working copy
+    git stash apply : This will apply the stash changes without removing it from stash
+    git stash show : This is used to show the summery of operation performed on the stash
+    git stash branch <-newBranchName-> <-stashName-> : This will create and checkout a new branch from the commit at which the stash was originally created and apply the changes saved in the stash
+    git stash drop <-stashName-> : This will delete the stash
+    git stash clear : This will delete all the stash
+    
