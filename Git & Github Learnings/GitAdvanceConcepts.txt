@@ -32,4 +32,8 @@ GIT STASH : Stash is use to preserve the changes without commiting them
     git stash branch <-newBranchName-> <-stashName-> : This will create and checkout a new branch from the commit at which the stash was originally created and apply the changes saved in the stash
     git stash drop <-stashName-> : This will delete the stash
     git stash clear : This will delete all the stash
+
+GIT CHERRY PICK : This in mean that choosing a commit from one branch and apply it to another branch.
+    git cherry-pick <-commithash-> : While applying this command make sure you are in right branch where you want to apply commit.
+    
     
